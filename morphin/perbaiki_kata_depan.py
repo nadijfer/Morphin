@@ -13,4 +13,7 @@ def perbaiki_kata_depan(kata):
     else: 
         return kata
     
-print(perbaiki_kata_depan('kejakarta'))
+print(
+    perbaiki_kata_depan('didalam'),
+    stemmer.stem('didalam'),
+)
