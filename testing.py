@@ -1,7 +1,7 @@
-from morphin import imbuhan
+from morphin import perbaiki
 
-awalan = imbuhan.perbaiki_awalan
-perbaiki_kalimat = imbuhan.kalimat_awalan
+awalan = perbaiki.perbaiki_awalan
+perbaiki_kalimat = perbaiki.kalimat_awalan
 
 kalimat = 'aku disuruh ibu untuk pergi mensapu halaman'
 
