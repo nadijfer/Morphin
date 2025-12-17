@@ -90,7 +90,7 @@ def akhiran_nya(list_kata):
     klitik = {'nya', 'ku', 'mu'}
 
     for i in list_kata_dengan_koma:
-        if i in klitik and hasil:
+        if i in klitik:
             fixed[-1] += i
         else:
             fixed.append(i)
